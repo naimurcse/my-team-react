@@ -6,8 +6,14 @@ import "./Players.css";
 
 const Players = () => {
 
-    console.log(playerData);
+    // console.log(playerData);
     const [playerInfo,setPlayerInfo] = useState([]);
+    const [cart, setCart] = useState([]);
+
+    const handlePlayers = (props) => {
+        const newCart = [...cart, props];
+        setCart(newCart);
+    };
 
     useEffect(() =>{
         setPlayerInfo(playerData);
@@ -18,11 +24,14 @@ const Players = () => {
         <div className="players-container">
             <div className="draf">
                 {
-                    playerInfo.map((listOfPlayers) => <Draf playerInfo={listOfPlayers}></Draf>)
+                    playerInfo.map((listOfPlayers) => <Draf 
+                    playerInfo={listOfPlayers}
+                    handlePlayers={handlePlayers}
+                    ></Draf>)
                 }
             </div>
             <div className="cart">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

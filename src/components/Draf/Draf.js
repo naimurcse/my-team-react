@@ -1,12 +1,15 @@
 import React from 'react';
-import "./Draf.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import "./Draf.css";
 
 const Draf = (props) => {
 
+    const handlePlayers = props.handlePlayers;
+
     const {name,img,playingRole,salary} = props.playerInfo;
-    console.log(name);
     return (
-        <div className="draf-container">
+        <div className="draf-container active">
             <div className="img-container">
                 <img src={img} alt=""></img>
             </div>
@@ -19,8 +22,8 @@ const Draf = (props) => {
                 <p>Salary</p>
                 <h2>{salary}</h2>
             </div>
-            <div style={{paddingRight:'0'}}>
-                <button className="btn">Add the player</button>
+            <div style={{margin:'auto'}}>
+                <button className="btn" onClick={()=>handlePlayers(props.playerInfo)}><FontAwesomeIcon icon={faUserPlus}/> Add</button>
             </div>
         </div>
     );

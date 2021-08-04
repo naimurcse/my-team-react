@@ -1,4 +1,35 @@
 .cart-container {
-    background-color: burlywood;
+    background-color: #F1F1F1;
+    padding: 25px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-players-list {
+    margin-top: 25px;
+}
+
+.selected-player {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #fff;
     padding: 20px;
+    margin-bottom: 2px;
+    border-radius: 5px; 
+    box-shadow: 0 4px 4px #00000014;
+}
+
+.selected-player h3 {
+    color: #007905;
+    font-weight: 700;
+}
+
+.selected-player h4,
+.status p {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.733);
 }

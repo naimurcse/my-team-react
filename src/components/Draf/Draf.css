@@ -1,7 +1,7 @@
 .draf-container {
     background-color: #1d1d1d;
     color: #fff;
-    margin: 15px 15px 0 0;
+    margin: 15px 25px 0 0;
     border-radius: 12px;
 }
 
@@ -11,15 +11,16 @@
     align-items: center;
     position: relative;
     height: 140px;
+    border: 2px solid #1d1d1d;
 }
 
 .draf-container .img-container {
     width: 140px;
     height: 140px;
-    border: 6px solid rgb(216, 216, 216);
+    border: 6px solid rgb(30 217 170);
     border-radius: 50%;
     overflow: hidden;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(40 185 122);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +33,7 @@
 }
 
 .player-title {
-    padding-left: 100px;
+    padding-left: 90px;
 }
 
 .img-container img {
@@ -51,6 +52,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(0.95);
 }
 
 .draf-container p {
@@ -58,10 +64,16 @@
     padding: 5px 0;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.637);
+    color: #333;
 }
 
 .draf-container h2 {
     font-weight: 700;
-    /* padding: 5px 0; */
     font-size: 28px;
+}
+
+.active {
+    background-color: #F1F1F1;
+    color: #333 !important;
+    border: 1px solid #F1F1F1;
 }
