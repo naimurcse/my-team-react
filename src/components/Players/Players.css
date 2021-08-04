@@ -1,0 +1,14 @@
+.players-container {
+    margin: 0 50px 0 120px;
+    display: flex;
+}
+
+.draf {
+    width: 65%;
+    margin: 50px 0;
+}
+
+.cart {
+    width: 35%;
+    margin: 70px 0;
+}

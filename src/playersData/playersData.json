@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "salary": "19000",
+      "key": 19,
+      "playingRole": "All Rounder",
+      "name": "Shakib Al Hasan",
+      "img": "https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062699/my-team-images/Shakib_bonhyy.webp"
+    },
+    {
+      "id": 2,
+      "salary": "23000",
+      "key": 43,
+      "playingRole": "All Rounder",
+      "name": "Mehedi Hasan Miraz",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062553/my-team-images/Miraz_q4qv4a.png"
+    },
+    {
+      "id": 3,
+      "salary": "83000",
+      "key": 83,
+      "playingRole": "All Rounder",
+      "name": "Mohammadullah",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062879/my-team-images/mohammadullah_io8tbb.webp"
+    },
+    {
+      "id": 4,
+      "salary": "99000",
+      "key": 89,
+      "playingRole": "All Rounder",
+      "name": "Shifuddin Ahmed",
+      "img": "https://res.cloudinary.com/dls7tpqhe/image/upload/v1628063346/my-team-images/saif_fi8ods.png"
+    },
+    {
+      "id": 5,
+      "salary": "20000",
+      "key": 2,
+      "playingRole": "Opening Batsman",
+      "name": "Imrul Kaiyas",
+      "img": "https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062427/my-team-images/Imrul_wcevzl.png"
+    },
+    {
+      "id": 6,
+      "salary": "16000",
+      "key": 66,
+      "playingRole": "Opening Batsman",
+      "name": "Liton Das",
+      "img": "https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062545/my-team-images/liton_qdyktv.png"
+    },
+    {
+      "id": 7,
+      "salary": "10000",
+      "key": 71,
+      "playingRole": "Batsman",
+      "name": "Mohammad Mithun",
+      "img": "https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062559/my-team-images/Mithunpng_wzpsry.png"
+    },
+    {
+      "id": 8,
+      "salary": "52000",
+      "key": 66,
+      "playingRole": "Wicketkeeper Batsman",
+      "name": "Nurul Islam",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062624/my-team-images/nurul_tltcbd.webp"
+    },
+    {
+      "id": 9,
+      "salary": "96000",
+      "key": 73,
+      "playingRole": "Wicketkeeper Batsman",
+      "name": "Mushfiqur Rahim",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628063084/my-team-images/mushi_yo0xvu.webp"
+    },
+    {
+      "id": 10,
+      "salary": "20000",
+      "key": 8,
+      "playingRole": "Bowler",
+      "name": "Taskin Ahmed",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062571/my-team-images/Taskin_a0qif4.png"
+    },
+    {
+      "id": 11,
+      "salary": "62000",
+      "key": 95,
+      "playingRole": "Bowler",
+      "name": "Mustafizur Rahaman",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628063153/my-team-images/Fizz_xlvxhm.png"
+    },
+    {
+      "id": 12,
+      "salary": "14000",
+      "key": 75,
+      "playingRole": "Opening Batsman",
+      "name": "Tamim Iqbal Khan",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062578/my-team-images/Tamim_kt2s2w.webp"
+    },
+    {
+      "id": 13,
+      "salary": "32000",
+      "key": 53,
+      "playingRole": "All Rounder",
+      "name": "Afif Hossain",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628063223/my-team-images/afif_ibp1ia.webp"
+    },
+    {
+      "id": 14,
+      "salary": "60000",
+      "key": 57,
+      "playingRole": "Opening Batsman",
+      "name": "Naim Shikh",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062634/my-team-images/Naim_zxkzxa.webp"
+    },
+    {
+      "id": 15,
+      "salary": "66000",
+      "key": 50,
+      "playingRole": "Bowler",
+      "name": "Shoriful Islam",
+      "img":"https://res.cloudinary.com/dls7tpqhe/image/upload/v1628062612/my-team-images/Shoriful_ddlq1t.webp"
+    }
+  ]

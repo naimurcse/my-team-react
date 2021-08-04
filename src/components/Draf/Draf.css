@@ -1,3 +1,67 @@
 .draf-container {
-    background-color: aquamarine;
+    background-color: #1d1d1d;
+    color: #fff;
+    margin: 15px 15px 0 0;
+    border-radius: 12px;
+}
+
+.draf-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    position: relative;
+    height: 140px;
+}
+
+.draf-container .img-container {
+    width: 140px;
+    height: 140px;
+    border: 6px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.player-title {
+    padding-left: 100px;
+}
+
+.img-container img {
+    max-height: 100%;
+    /* object-fit: cover; */
+    margin: auto;
+}
+
+.btn {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    background-color: #D9D11E;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.draf-container p {
+    font-weight: 300;
+    padding: 5px 0;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.draf-container h2 {
+    font-weight: 700;
+    /* padding: 5px 0; */
+    font-size: 28px;
 }
