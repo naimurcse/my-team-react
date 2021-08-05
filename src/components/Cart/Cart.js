@@ -17,7 +17,7 @@ const Cart = (props) => {
                 </div>
                 <div style={{textAlign: 'right'}}>
                     <p>Total Budget</p>
-                    <h2>{bugate}</h2>
+                    <h2>{bugate} TK</h2>
                 </div>
             </div>
 

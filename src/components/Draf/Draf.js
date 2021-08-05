@@ -23,7 +23,7 @@ const Draf = (props) => {
                 <h2>{salary}</h2>
             </div>
             <div style={{margin:'auto'}}>
-                <button className="btn" onClick={()=>handlePlayers(props.playerInfo)}><FontAwesomeIcon icon={faUserPlus}/> Add</button>
+                <button className="btn btn-success" onClick={()=>handlePlayers(props.playerInfo)}><FontAwesomeIcon icon={faUserPlus}/> Add</button>
             </div>
         </div>
     );

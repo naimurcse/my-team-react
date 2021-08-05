@@ -5,10 +5,10 @@
 
 .draf {
     width: 65%;
-    margin: 50px 0;
 }
 
 .cart {
     width: 35%;
-    margin: 70px 0;
+    min-height: 100vh;
+    background-color: #F1F1F1;
 }
